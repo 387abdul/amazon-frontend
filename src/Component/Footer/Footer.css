@@ -1,0 +1,78 @@
+.baktotop{
+    background-color: #475668;
+    height: 40px;
+    padding-top: 10px;
+}
+.publiclink{
+    background-color: #232F3E;
+    color: white;
+    padding-top: 30px;
+}
+
+.gtku span{
+    font-size: 13px;
+    gap: 2;
+    color: rgba(245, 245, 245, 0.829);
+}
+.language{
+    border: 1px solid  rgba(245, 245, 245, 0.589);   
+}
+
+.otherlink{
+    background-color: #131A22;
+    color: white;
+    padding-top: 30px;
+}
+.otherlink span{
+    font-size: small;
+
+    color: rgba(245, 245, 245, 0.829);
+}
+.title{
+    font-size: small;
+}
+.right{
+    padding-left: 180px;
+}
+.hsdfb{
+    display: none;
+}
+@media screen and (max-width: 884px) {
+    .right{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 603px) {
+    .marcus{
+        display: none;
+    }
+    .mimin{
+        display: none;
+    }
+    .smallwee{
+        display: block;
+    }
+    .footwewew{
+        line-height: 10px;
+    }
+    .hsdfb{
+        display: block;
+    }
+}   
+@media screen and (max-width: 393px) {
+    .marcus{
+        display: none;
+    }
+    .mimin{
+        display: none;
+    }
+    .smallwee{
+        display: block;
+    }
+    .footwewew{
+        line-height: 10px;
+    }
+    .hsdfb{
+        display: block;
+    }
+}    

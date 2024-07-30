@@ -1,0 +1,13 @@
+.topsellercard{
+  /* position: relative; */
+  background-color: #EEEBEB;
+  top: 60%;
+}
+.whitecard{
+  width: 97%;
+}
+@media screen and (max-width: 884px) {
+  .imagesss img{
+    width: 90%;
+  }
+}

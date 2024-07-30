@@ -1,0 +1,99 @@
+.sectionforcard{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    top: 10%;
+    padding: 0 22px;
+}
+.seactioncard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 310px;
+    box-sizing: border-box;
+    padding: 20px 0px 15px;
+    margin-top: 40px;
+}
+.cardsectiontitle{
+    margin: 0 20px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.imgsofcard{
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.cardimg{
+    width: 144px;
+    height: 120px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.imgcardsection{
+    height: 90%;
+    max-width: 120px;
+}
+.cardimgtext{
+    font-size: 12px;
+    font-weight: 500;
+}
+.showmore{
+    margin: 0 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #007185;
+    cursor: pointer;
+}
+.fullcardimg{
+    width: 260px;
+    height: 40vh;
+}
+.imgsofcard1{
+    margin: 10px 20px;
+}
+.showmore1{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #007185;
+    cursor: pointer;
+}
+.sectioncard2{
+    display: none;
+}
+/* -----------  media quires  -------------- */
+@media screen and (max-width: 930px) {
+    .sectionforcard{
+        display: none;
+    }
+    .sectioncard2{
+        display: block;
+    }
+    .card{
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top:-90px;
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left: 10px;
+    }
+    .card .cardtitle p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .card .imgage img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 393px) {
+  .row{
+        gap: 80px;    
+   }
+   .card{
+    width: 170px;
+   }
+
+}
